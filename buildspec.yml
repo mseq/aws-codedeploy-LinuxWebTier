@@ -4,6 +4,10 @@ version: 0.2
 # Example from Amazon Tutorials
 # https://docs.aws.amazon.com/codebuild/latest/userguide/build-spec-ref.html
 #
+# This file is only needed when there is a BUILD needed between SOURCE and DEPLOY steps
+# For this project, which contains only staic html files, when configuring the pipeline,
+# choose to skip the BUILD phase.
+#
 
 # env:
 #   variables:
